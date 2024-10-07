@@ -8,7 +8,7 @@
         /* Estilos gerais para a página */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #e0e0e0; /* Cinza claro */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -55,6 +55,15 @@
             font-size: 24px;
             color: #333;
         }
+
+        /* Texto discreto no rodapé */
+        .footer {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 12px;
+            color: #888;
+        }
     </style>
 </head>
 <body>
@@ -69,6 +78,10 @@
         <input type="number" id="numero2" placeholder="Digite um número">
 
         <button id="calcularBtn">Calcular</button>
+    </div>
+
+    <div class="footer">
+        by Matheus Henrique
     </div>
 
     <script>
